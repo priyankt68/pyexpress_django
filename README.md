@@ -1,6 +1,8 @@
 # pyexpress_django
 
 - Python installation
+- pip installation
+  - Click [here](https://bootstrap.pypa.io/get-pip.py)
 - Code editor
   - Sublime Text 2
   - [Atom.io](https://atom.io)
@@ -8,6 +10,9 @@
   - Pycharm
 - Introduction to Python and Django
 - [Django installation](https://docs.djangoproject.com/en/1.10/topics/install/)
+  <pre>
+  sudo pip install django
+  </pre>
 - Creating first django project
   <pre> 
   django-admin startproject mysite . 
