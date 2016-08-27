@@ -6,7 +6,7 @@
   - Choose "Save file" option.
   - Open your terminal (CTRL+ALT+T) and run following two commands.
   - <pre>cd ~/Downloads</pre>
-  - <pre>sudo python get-pip.py</pre>
+  - <pre>sudo python ~/Downloads/get-pip.py</pre>
   - Now you have python package manager installed on your system. Next we will download Django
 - [Django installation](https://docs.djangoproject.com/en/1.10/topics/install/)
   <pre>
