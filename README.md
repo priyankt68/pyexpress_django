@@ -5,7 +5,6 @@
   - Click [here](https://bootstrap.pypa.io/get-pip.py)
   - Choose "Save file" option.
   - Open your terminal (CTRL+ALT+T) and run following two commands.
-  - <pre>cd ~/Downloads</pre>
   - <pre>sudo python ~/Downloads/get-pip.py</pre>
   - Now you have python package manager installed on your system. Next we will download Django
 - [Django installation](https://docs.djangoproject.com/en/1.10/topics/install/)
@@ -19,12 +18,13 @@
   - Pycharm
 - Introduction to Django
 - Creating first django project
-  <pre> 
+  <pre>
+  mkdir django && cd django
   django-admin startproject mysite . 
   </pre>
 - Understanding the structure of a Django project. : This will include making changes to settings.py, setting up database and starting the web server. End of this, user should be able see the "It worked" page.
   <pre>
-    pyexpress_django
+    django
     ├───manage.py
     └───mysite
             settings.py
