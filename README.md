@@ -3,16 +3,21 @@
 - Python installation
 - pip installation
   - Click [here](https://bootstrap.pypa.io/get-pip.py)
+  - Choose "Save file" option.
+  - Open your terminal (CTRL+ALT+T) and run following two commands.
+  - <pre>cd ~/Downloads</pre>
+  - <pre>sudo python get-pip.py</pre>
+  - Now you have python package manager installed on your system. Next we will download Django
+- [Django installation](https://docs.djangoproject.com/en/1.10/topics/install/)
+  <pre>
+  sudo pip install django
+  </pre>
 - Code editor
   - Sublime Text 2
   - [Atom.io](https://atom.io)
   - Eclipse
   - Pycharm
-- Introduction to Python and Django
-- [Django installation](https://docs.djangoproject.com/en/1.10/topics/install/)
-  <pre>
-  sudo pip install django
-  </pre>
+- Introduction to Django
 - Creating first django project
   <pre> 
   django-admin startproject mysite . 
